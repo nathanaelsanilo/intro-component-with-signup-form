@@ -1,11 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main class="text-2xl">
-    hello world
-  </main>
+  <main class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">hello world</main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
