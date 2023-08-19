@@ -9,4 +9,8 @@
     font-size: theme('fontSize.lg');
     font-family: 'Poppins', sans-serif;
   }
+
+  html, body, #app {
+    height: theme('minHeight.full');
+  }
 }
