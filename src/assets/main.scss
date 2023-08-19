@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-size: theme('fontSize.lg');
-        font-family: 'Poppins', sans-serif;
-    }
+  html {
+    font-size: theme('fontSize.lg');
+    font-family: 'Poppins', sans-serif;
+  }
 }
