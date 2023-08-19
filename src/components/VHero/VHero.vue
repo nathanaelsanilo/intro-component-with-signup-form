@@ -1,7 +1,13 @@
 <template>
-  <div class="hero">
-    <div class="hero__body"></div>
+  <div class="v-hero">
+    <div class="v-hero__body">
+      <slot name="body"></slot>
+    </div>
   </div>
 </template>
 <script setup lang="ts"></script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.v-hero {
+  @apply text-white;
+}
+</style>

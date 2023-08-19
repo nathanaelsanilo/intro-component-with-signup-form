@@ -10,7 +10,17 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  html, body, #app {
+  html,
+  body,
+  #app {
     height: theme('minHeight.full');
+
+    @layer components {
+      .v-helper {
+        font-size: theme('fontSize.xs');
+        color: theme('colors.blue.grayish-blue');
+        width: theme('width.full');
+      }
+    }
   }
 }
