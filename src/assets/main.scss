@@ -10,17 +10,30 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  html,
-  body,
-  #app {
-    height: theme('minHeight.full');
+  body {
+    background-color: theme('colors.red.DEFAULT');
+    background-image: theme('backgroundImage.mobile');
 
-    @layer components {
-      .v-helper {
-        font-size: theme('fontSize.xs');
-        color: theme('colors.blue.grayish-blue');
-        width: theme('width.full');
-      }
+    @screen lg {
+      background-image: theme('backgroundImage.desktop');
     }
   }
+
+  html,
+  body {
+    min-height: theme('minHeight.screen');
+    height: theme('height.screen');
+  }
+}
+
+@layer components {
+  .v-helper {
+    font-size: theme('fontSize.xs');
+    color: theme('colors.blue.grayish-blue');
+    width: theme('width.full');
+  }
+}
+
+#app {
+  @apply h-full;
 }

@@ -3,13 +3,13 @@ import { HeroLanding, VAlert, FormSignup } from '@/components'
 </script>
 
 <template>
-  <main class="h-full bg-red bg-mobile">
-    <section class="container mx-auto h-full lg:px-24">
+  <main class="grid h-full place-items-center">
+    <section class="container mx-auto px-4 py-20 lg:px-12 lg:py-4">
       <div
-        class="flex h-full flex-col items-center justify-center gap-y-10 px-8 py-8 lg:flex-row lg:gap-x-16"
+        class="flex flex-col items-center justify-start gap-y-10 px-0 py-0 lg:flex-row lg:gap-x-16"
       >
-        <HeroLanding />
-        <div>
+        <HeroLanding class="flex-1" />
+        <div class="flex-1">
           <VAlert>
             <template #default>
               <p><span class="text-white">Try it free 7 days</span> then $20/mo. thereafter</p>
