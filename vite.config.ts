@@ -5,6 +5,7 @@ import Icons from 'unplugin-icons/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/intro-component-with-signup-form/',
   server: {
     port: 3000
   },
