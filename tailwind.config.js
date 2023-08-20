@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        mobile: 'url(./src/assets/images/bg-intro-mobile.png)',
-        desktop: 'url(./src/assets/images/bg-intro-desktop.png)'
+        mobile: 'url(../assets/images/bg-intro-mobile.png)',
+        desktop: 'url(../assets/images/bg-intro-desktop.png)'
       },
       colors: {
         red: {
