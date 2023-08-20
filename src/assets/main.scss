@@ -32,6 +32,14 @@
     color: theme('colors.blue.grayish-blue');
     width: theme('width.full');
   }
+
+  .v-icon {
+    @apply h-8 w-8;
+
+    &--error {
+      @apply text-red;
+    }
+  }
 }
 
 #app {
